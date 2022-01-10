@@ -1,0 +1,5 @@
+print("My name is Dr Ghulam Asghar Sajid")
+print("I want to be a data analyst")
+print('test for single col')
+print("test for double col")
+print('''test for triple col''')
