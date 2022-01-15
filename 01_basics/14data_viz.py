@@ -9,11 +9,11 @@ sns.set_theme(style="ticks", color_codes=True)
 
 ## Import data set/own data can be imported
 titanic = sns.load_dataset("titanic")
-# print(titanic)
+print(titanic)
 
 ## Plot basic graph with one varibale
-# plot = sns.countplot(x= "sex", data = titanic)
-# plt.show()
+plot = sns.countplot(x= "sex", data = titanic)
+plt.show()
 
 ## Plot basic graph with two varibale
 plot = sns.countplot(x= "sex", data = titanic, hue = "class")
