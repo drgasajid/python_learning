@@ -538,3 +538,51 @@ plt.show()
 ![png](output_11_0.png)
     
 
+
+
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+titanic = sns.load_dataset("titanic")
+
+sns.barplot(x = "fare", y = "class", hue="sex", data = titanic,
+            color = "Blue", ci = None)
+plt.show()
+```
+
+
+    
+![png](output_12_0.png)
+    
+
+
+
+```python
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+titanic = sns.load_dataset("titanic")
+
+sns.barplot(x = "class", y = "fare", data = titanic,
+            linewidth=2.5, facecolor=(1, 1, 0.6, 1), # facevolor is CMYK
+            errcolor="0.5", edgecolor="0.2")
+```
+
+
+
+
+    <AxesSubplot:xlabel='class', ylabel='fare'>
+
+
+
+
+    
+![png](output_13_1.png)
+    
+
+
+
+```python
+
+```
