@@ -1,6 +1,7 @@
 # Markdown Self Cheat Sheet
 
 # Content
+
 - [Markdown Self Cheat Sheet](#markdown-self-cheat-sheet)
 - [Content](#content)
 - [1. Headings](#1-headings)
